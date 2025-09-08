@@ -19,7 +19,7 @@ export class App {
         'https://drive.google.com/file/d/1oOu7_R2lA5ax3CNjSCIEvccu918ofatO/view?usp=sharing'
       );
       const externalUrl =
-        'intent://#Intent;scheme=myapp;package=com.example.hello;' +
+        'intent://open#Intent;scheme=myapp;package=com.example.hello;' +
         `S.browser_fallback_url=${fallbackUrl};end`;
       window.location.href = externalUrl;
     } else {
